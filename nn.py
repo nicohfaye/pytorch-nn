@@ -58,7 +58,7 @@ for epoch in range(epochs):
          optimizer.step()
 
          if (i+1) % 100 == 0:
-             print(f'Epoch:{epoch+1} / {epochs+1}, step {i+1}/{total_steps}, loss = {loss.item():.4f}')
+             print(f'Epoch:{epoch+1} / {epochs}, step {i+1}/{total_steps}, loss = {loss.item():.4f}')
 
 # Testing loop
 with torch.no_grad():
