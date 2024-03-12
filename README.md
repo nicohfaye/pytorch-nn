@@ -1,1 +1,1 @@
-# pytorch-nn
+# Neural Network in pytorch
